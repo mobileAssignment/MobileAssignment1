@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".shoePage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#8E6BCC"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="Shoes"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/shoe1Image"
+        android:layout_width="205dp"
+        android:layout_height="185dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/shoes" />
+
+    <ImageView
+        android:id="@+id/shoe2Image"
+        android:layout_width="205dp"
+        android:layout_height="185dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        app:srcCompat="@drawable/shoes2" />
+
+    <TextView
+        android:id="@+id/shoe1"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#8E6BCC"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="MIJIA Lightweight"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoe1Image"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/shoe2"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:background="#8E6BCC"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="UltraBoost Mid"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoe2Image"
+        android:layout_marginRight="36dp" />
+
+    <ImageView
+        android:id="@+id/shoe3Image"
+        android:layout_width="205dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoe1"
+        app:srcCompat="@drawable/shoes3" />
+
+    <ImageView
+        android:id="@+id/shoe4Image"
+        android:layout_width="205dp"
+        android:layout_height="185dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoe2"
+        app:srcCompat="@drawable/shoes4" />
+
+    <TextView
+        android:id="@+id/shoe3"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:background="#8E6BCC"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="R1 Primeknit"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoe3Image"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:id="@+id/shoe4"
+        android:layout_width="134dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="36dp"
+        android:background="#8E6BCC"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="Gel Nimbus"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoe4Image"
+        android:layout_marginRight="36dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllCategory">
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="420dp"
+        android:layout_height="89dp"
+        android:background="#A475FA"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="Categories"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/back_button" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/all_category"
+        android:layout_width="398dp"
+        android:layout_height="225dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:background="#A475FA"
+        android:fontFamily="@font/open_sans"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:text="Select a Category"
+        android:textColor="#000000"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/all_category" />
+
+    <ImageView
+        android:id="@+id/shoeCate"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/shoeicon" />
+
+    <ImageView
+        android:id="@+id/gymCate"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintStart_toEndOf="@+id/shoeCate"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/gymicon" />
+
+    <ImageView
+        android:id="@+id/bottleCate"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        app:layout_constraintStart_toEndOf="@+id/gymCate"
+        app:layout_constraintTop_toBottomOf="@+id/textView10"
+        app:srcCompat="@drawable/bottleicon" />
+
+    <ImageView
+        android:id="@+id/shirtCate"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/shoeCate"
+        app:srcCompat="@drawable/shirticon" />
+
+    <ImageView
+        android:id="@+id/ballCate"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/shirtCate"
+        app:layout_constraintTop_toBottomOf="@+id/gymCate"
+        app:srcCompat="@drawable/ballicon" />
+
+    <ImageView
+        android:id="@+id/shortCate"
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toEndOf="@+id/ballCate"
+        app:layout_constraintTop_toBottomOf="@+id/bottleCate"
+        app:srcCompat="@drawable/shorticon2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

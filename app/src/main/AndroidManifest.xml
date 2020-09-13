@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.mobileassignment">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".shirt3"></activity>
+        <activity android:name=".shirt2" />
+        <activity android:name=".shirt1" />
+        <activity android:name=".ball2" />
+        <activity android:name=".ball1" />
+        <activity android:name=".gym2" />
+        <activity android:name=".gym1" />
+        <activity android:name=".ballPage" />
+        <activity android:name=".gymPage" />
+        <activity android:name=".bottle2" />
+        <activity android:name=".bottle1" />
+        <activity android:name=".bottlePage" />
+        <activity android:name=".short3" />
+        <activity android:name=".short2" />
+        <activity android:name=".short1" />
+        <activity android:name=".shortPage" />
+        <activity android:name=".shoe4" />
+        <activity android:name=".shoe3" />
+        <activity android:name=".shoe2" />
+        <activity android:name=".shoe1" />
+        <activity android:name=".shirtPage" />
+        <activity android:name=".shoePage" />
+        <activity android:name=".AllProduct" />
+        <activity android:name=".Setting" />
+        <activity android:name=".PurchaseHistory" />
+        <activity android:name=".AllCategory" />
+        <activity android:name=".Register" />
+        <activity android:name=".Login" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
